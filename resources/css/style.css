@@ -28,14 +28,12 @@ header {
   width: 100%;
   font-size: 1.3rem;
 
-
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1rem;
 }
 
 nav div {
@@ -89,7 +87,7 @@ li {
 }
 
 .one .banner-image {
-  padding: 2rem;
+  padding: 2rem 1.5rem;
 }
 
 
@@ -99,12 +97,13 @@ li {
   justify-content: flex-start;
   width: 40%;
   padding-right: 10rem;
+  margin: auto;
 }
 
 .btn {
   background-color: hsl(50, 0%, 25%);
   border-radius: .2rem;
-  color: gray;
+  color: white;
   margin-top: 1rem;
   text-align: center;
   line-height: 2rem;
@@ -112,50 +111,75 @@ li {
 
 }
 
-
 span p {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/*
-.flex-container {
+/* second banner section "Keep Practicing"*/
+
+.flex-container-2 {
   display: flex;
   position: relative;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
 }
 
-.one {
+.one-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  height: 32rem;
-  padding-top:
-  overflow: hidden;
-  background-color: hsl(30, 0%, 79%);
+  width: 60%;
+
 }
 
+.one-2 .banner-image-2 {
+  padding: 2rem 1.5rem;
 
-.headline {
+}
+
+.banner-image-2 {
+
+}
+
+.two-2 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 8rem;
-  margin-top:
-  text-align: center;
-  padding: 1rem 6rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding-right: 10rem;
+  margin: auto;
 }
-*/
 
+.two-2-a {
+  display: flex;
+  justify-content: center;
+}
 
+.two-2-a-1 .two-2-a-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding-right: 10rem;
+  margin: auto;
+}
 
+.orientation-image {
 
+}
 
-/* second banner section "Keep Practicing"*/
+.information-image {
+
+}
+
+.guest-image {
+
+}
+
 
 /* third banner section "Start Learning" */
 
