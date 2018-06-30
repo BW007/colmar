@@ -108,7 +108,6 @@ li {
   text-align: center;
   line-height: 2rem;
 
-
 }
 
 span p {
@@ -121,9 +120,6 @@ span p {
 
 .flex-container-2 {
   display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
   background-color: white;
   width: 100%;
 }
@@ -142,7 +138,6 @@ span p {
 }
 
 .banner-image-2 {
-
 }
 
 .two-2 {
@@ -150,37 +145,61 @@ span p {
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
-  padding-right: 10rem;
+
   margin: auto;
 }
 
-.two-2-a {
+.btn-2 {
+  border-radius: .2rem;
+  color: hsl(50, 0%, 25%);
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+
+.info {
   display: flex;
   justify-content: center;
 }
 
-.two-2-a-1 .two-2-a-2 {
+.two-2-a {
+  display: flex;
+
+}
+
+
+.two-2-a-1  {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-start;
   width: 40%;
-  padding-right: 10rem;
   margin: auto;
 }
 
 .orientation-image {
-
+  height: 16rem;
+  width: 16rem;
+  padding-bottom: 1rem;
 }
 
 .information-image {
-
+  height: 16rem;
+  width: 16rem;
+  padding-bottom: 1rem;
 }
 
 .guest-image {
-
+  height: 16rem;
+  width: 16rem;
 }
 
-
 /* third banner section "Start Learning" */
+
+.flex-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 /* thesis exhibit section */
