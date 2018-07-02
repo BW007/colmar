@@ -2,10 +2,12 @@ html {
   text-size: 16px;
   color: hsl(50, 0%, 25%);
   font-family: "Montserrat";
+  height: 100%;
 }
 
 body {
-
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
 }
 
 div {
@@ -18,6 +20,8 @@ p {
 }
 
 .container {
+max-width: 100%;
+margin: auto;
 
 }
 /* header section */
@@ -74,7 +78,7 @@ li {
   justify-content: space-around;
   align-items: center;
   background-color: hsl(30, 0%, 79%);
-  width: 100%;
+
 }
 
 
@@ -121,7 +125,7 @@ span p {
 .flex-container-2 {
   display: flex;
   background-color: white;
-  width: 100%;
+  padding-bottom: 2rem;
 }
 
 .one-2 {
@@ -134,10 +138,22 @@ span p {
 
 .one-2 .banner-image-2 {
   padding: 2rem 1.5rem;
+}
 
+.one-2 h2 {
+  padding: 0 0 0 1.5rem;
+}
+
+.one-2 p {
+  padding: 0 1.5rem;
+}
+
+.one-2 h5 {
+  padding: 0 0 0 1.5rem;
 }
 
 .banner-image-2 {
+
 }
 
 .two-2 {
@@ -199,7 +215,45 @@ span p {
 .flex-container-3 {
   display: flex;
   flex-wrap: wrap;
+  background-color: hsl(30, 0%, 79%)
 }
+
+.start-learning {
+  display: block;
+  text-align: center;
+}
+
+.learning-image {
+  display: flex;
+  flex-wrap: row-wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 4.5rem 2rem 4.5rem;
+
+}
+
+.learning-image img {
+  margin: 0 1rem;
+  height: 12.5rem;
+  width: 18.75rem;
+}
+
+
+
+.learning-text {
+  display: flex;
+  flex-wrap: row-wrap;
+  justify-content: space-around;
+  padding: 0 4rem 2rem 4rem;
+}
+
+.learning-text-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4rem 2rem 4rem;
+}
+
+
 
 
 /* thesis exhibit section */
