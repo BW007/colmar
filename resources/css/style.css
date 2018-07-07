@@ -186,105 +186,109 @@ span p {
 }
 */
 
-/* second banner section "Keep Practicing"*/
+/* Second banner section "Keep Practicing"*/
 
-.flex-container-2 {
-  display: flex;
+
+.flex-container-2.container {
+  padding: 2rem 0rem;
   background-color: white;
-  padding-bottom: 2rem;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
 }
 
 .one-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60%;
+  max-width: 60%;
+  margin: auto;
+  padding: 0rem 1.5rem;
 
 }
 
 .one-2 .banner-image-2 {
-  padding: 2rem 1.5rem;
+  width: 100%;
+  margin: auto;
 }
 
 .one-2 h2 {
-  padding: 0 0 0 1.5rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .one-2 p {
-  padding: 0 1.5rem;
+  padding-top: 1.5rem;
+  font-weight: 300;
+  width: 100%;
+  margin: auto;
 }
 
 .one-2 h5 {
-  padding: 0 0 0 1.5rem;
+  padding-top: 1.5rem;
+  font-weight: 300;
+  width: 100%;
+  margin: auto;
 }
 
-.banner-image-2 {
 
-}
+/* Right side of second section */
 
 .two-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   width: 40%;
-
 }
 
-.two-2 h3 {
+.info {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.two-2-a {
+  width: 35%;
+}
+
+.two-2-a img {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.two-2-a-1  {
+  width: 65%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.two-2-a-1 h3 {
   font-weight: bold;
   padding-bottom: 1rem;
   font-size: 1.2rem;
+  width: 100%;
+  margin: auto;
 }
 
-.btn-2 {
+.two-2-a-1 p, a {
+  width: 100%;
+  margin: auto;
+
+}
+
+.btn-2{
   border-radius: .2rem;
   color: blue;
   margin-top: 1rem;
   text-align: center;
   line-height: 2rem;
-  /* hover color:   color: hsl(50, 0%, 25%);*/
-
 }
 
-
-.info {
-  display: flex;
-  justify-content: center;
-}
-
-.two-2-a {
-  display: flex;
-
-}
-
-.two-2-a-1  {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 40%;
-  margin: auto;
-}
-
-.orientation-image {
-  height: 16rem;
-  width: 16rem;
-  padding-bottom: 1rem;
-}
-
-.information-image {
-  height: 16rem;
-  width: 16rem;
-  padding-bottom: 1rem;
-}
-
-.guest-image {
-  height: 16rem;
-  width: 16rem;
+a:hover {
+  color: purple;
+  text-transform: uppercase;
 }
 
 .mobile-info-section {
   display: none;
 }
+
 /* Mobile Media Query for Section Two */
 
 @media only screen and (max-width: 600px) {
@@ -444,6 +448,13 @@ video {
   margin-top: 4.4rem;
 }
 
+.info-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  margin-top: 4.4rem;
+}
+
 .two-3 {
   display: flex;
   flex-direction: column;
@@ -453,7 +464,12 @@ video {
 
 /* Mobile Media Query for Thesis section */
 
+@media only screen and (max-width: 600px) {
 
+.info-2 {
+  display: none;
+}
+}
 
 /* Footer Section */
 
