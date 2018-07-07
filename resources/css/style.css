@@ -78,15 +78,16 @@ li {
 
 /* first banner section "Learn Somethin New" */
 
-.flex-container {
+.flex-container.container {
   display: flex;
   position: relative;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  margin: auto;
   background-color: hsl(30, 0%, 79%);
 
 }
-
 
 .one {
   display: flex;
@@ -110,6 +111,12 @@ li {
   margin: auto;
 }
 
+.two h1 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .btn {
   background-color: hsl(50, 0%, 25%);
   border-radius: .2rem;
@@ -120,11 +127,13 @@ li {
 
 }
 
+/*
 span p {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+*/
 
 /* second banner section "Keep Practicing"*/
 
@@ -170,12 +179,20 @@ span p {
 
 }
 
+.two-2 h3 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
 .btn-2 {
   border-radius: .2rem;
-  color: hsl(50, 0%, 25%);
+  color: blue;
   margin-top: 1rem;
   text-align: center;
   line-height: 2rem;
+  /* hover color:   color: hsl(50, 0%, 25%);*/
+
 }
 
 
@@ -223,12 +240,18 @@ span p {
 .flex-container-3 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: hsl(30, 0%, 79%)
 }
 
+h1#learning {
+
+}
+
 .start-learning {
-  display: block;
-  text-align: center;
+  padding: 2rem 0;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .learning-image {
@@ -290,6 +313,5 @@ video {
 }
 
 .mobile-info-section{
-
 }
 }
