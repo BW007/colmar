@@ -237,6 +237,82 @@ span p {
 
 /* third banner section "Start Learning" */
 
+main {
+  background-color: hsl(30, 0%, 79%);
+  width: 100%;
+  padding: 2rem 0rem;
+}
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 3.5rem;
+  max-width: 100%;
+}
+
+main h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.courses {
+  max-width: 28%;
+  background-color: #fff;
+  margin: 1rem 1rem;
+  padding: .5rem;
+}
+
+.courses img {
+  width: 100%;
+  margin: auto;
+}
+
+
+.courses h2 {
+  font-weight: 500;
+  background-color: #fff;
+  /* padding: 1rem .25rem 1rem .25rem; */
+  width: 100%;
+  margin: auto;
+  padding-top: .5rem;
+}
+
+.courses .title {
+  text-transform: uppercase;
+  width: 100%;
+  margin: auto;
+  font-weight: 300;
+}
+
+.courses p {
+  padding-top: 0.76rem;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  font-weight: 300;
+}
+
+
+.courses:hover {
+  background-color: #cc0033;
+  /* margin: .15rem; */
+}
+
+.mobile-course-tabs {
+  display: none;
+}
+
+
+/*
 .flex-container-3 {
   display: flex;
   flex-wrap: wrap;
@@ -244,7 +320,18 @@ span p {
   background-color: hsl(30, 0%, 79%)
 }
 
-h1#learning {
+/*
+.course-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 3.5rem;
+  max-width: 100%;
+}
+
+
+h#learning {
 
 }
 
@@ -282,6 +369,16 @@ h1#learning {
   justify-content: space-around;
   padding: 0 4rem 2rem 4rem;
 }
+*/
+
+/*
+.learning-text h3 {
+  padding: 1rem 8rem;
+}
+.learning-text-2 h4 {
+  padding: .5rem 8.5rem;
+}
+*/
 
 /* thesis exhibit section */
 
