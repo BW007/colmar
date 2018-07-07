@@ -75,6 +75,7 @@ li {
 .mobile-menu {
   display: none;
 }
+
 /* first banner section "Learn Somethin New" */
 
 .flex-container {
@@ -188,6 +189,9 @@ span p {
 
 }
 
+.mobile-info-section {
+  display: none;
+}
 
 .two-2-a-1  {
   display: flex;
@@ -276,4 +280,16 @@ video {
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
+}
+
+/* mobile size settings */
+
+@media only screen and (max-width: 480px), (max-width: 768px) {
+.mobile-menu {
+
+}
+
+.mobile-info-section{
+
+}
 }
