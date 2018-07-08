@@ -157,58 +157,9 @@ li {
 
 .btn:hover {
   color: #92c5d8;
-  
-}
-
-/*
-.flex-container.container {
-  display: flex;
-  position: relative;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-  background-color: hsl(30, 0%, 79%);
 
 }
 
-.one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 60%;
-
-}
-
-.one .banner-image {
-  padding: 2rem 1.5rem;
-}
-
-
-.two {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 40%;
-  padding-right: 10rem;
-  margin: auto;
-}
-
-.two h1 {
-  padding-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.btn {
-  background-color: hsl(50, 0%, 25%);
-  border-radius: .2rem;
-  color: white;
-  margin-top: 1rem;
-  text-align: center;
-  line-height: 2rem;
-
-}
 
 /* Mobile Media Query for Section One */
 
@@ -247,14 +198,6 @@ li {
 }
 
 }
-
-/*
-span p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-*/
 
 /* Second banner section "Keep Practicing"*/
 
@@ -549,6 +492,9 @@ main h1 {
   font-weight: 600;
 }
 
+.one-2-mobile {
+  display: none;
+}
 /* Thesis info - right side */
 
 .two-3 {
@@ -593,29 +539,31 @@ background-color: white;
   margin: auto;
 }
 
-/*
-.info-2 {
-  display: flex;
-  flex-direction: row;
-}
-*/
 
 /* Mobile Media Query for Thesis section */
 
 @media only screen and (max-width: 600px) {
 
-video {
+.two-3 {
+  display: none;
+}
 
+.one-2 {
+  display: none;
+}
+
+.one-2-mobile {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 100%;
+}
+
+.one-2-mobile video {
   width: 100%;
 }
 
-.info-2 {
-  display: none;
-}
 
-.info-3 {
-  display: none;
-}
 }
 
 /* Footer Section */
