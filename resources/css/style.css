@@ -98,6 +98,59 @@ li {
 /* first banner section "Learn Somethin New" */
 
 .flex-container.container {
+  background-color: hsl(30, 0%, 79%);
+
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.one .banner-image {
+  margin: 2rem;
+  width: 91%;
+  /*
+  padding-top: 4rem;
+  width: 60%;
+  */
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  /*
+  justify-content: center;
+  flex-direction: column;
+  max-width: 40%;
+  padding-right: 1rem;
+  margin: auto;
+  */
+}
+
+.right-side-2 {
+  margin: 1rem;
+}
+
+.right-side h1 {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: hsl(50, 0%, 25%);
+  border-radius: .2rem;
+  color: white;
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 2rem;
+
+}
+
+/*
+.flex-container.container {
   display: flex;
   position: relative;
   justify-content: space-around;
@@ -160,6 +213,7 @@ li {
 
 .one {
   width: 100%;
+  justify-content: center;
 }
 
 .one .banner-image {
@@ -168,7 +222,7 @@ li {
   padding: 0;
 }
 
-.two {
+.right-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,6 +230,11 @@ li {
   padding: 1rem 0;
   margin: auto;
 }
+
+.right-side-2 {
+  width: 100%;
+}
+
 }
 
 /*
@@ -498,3 +557,11 @@ footer .container {
 .nav-content a:hover {
   color: blue;
 }
+
+/* Media Queries for Footer Section */
+
+@media only screen and (max-width: 600px) {
+
+  .nav-content {
+    display: none;
+  }
