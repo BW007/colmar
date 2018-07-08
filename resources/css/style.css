@@ -494,38 +494,107 @@ main h1 {
 
 /* thesis exhibit section */
 
-video {
-  height: 31rem;
-  padding: 1.5rem 1.5rem;
+.thesis.container {
+  background-color: white;
+  max-width: 100%;
+  margin: auto;
+}
+
+.thesis-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.thesis-header h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.thesis-content {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.one-2 {
+  max-width: 60%;
+  margin: auto;
+  padding: 0rem 1.5rem;
+}
+
+.one-2 video {
+  width: 100%;
+  margin: auto;
+}
+
+.one-2 h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Thesis info - right side */
+
+.two-3 {
+  width: 40%;
 }
 
 .info-2 {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
   background-color: hsl(30, 0%, 79%);
-  margin-bottom: 1.5rem;
-  margin-top: 4.4rem;
 }
-
 .info-3 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-  margin-top: 4.4rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+margin: auto;
+padding: 1rem;
+background-color: white;
 }
 
-.two-3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 40%;
+.two-2-a img {
+  height: auto;
+  width: 100%;
+  margin: auto;
 }
+
+.two-2-a-1 {
+  width: 65%;
+  margin: auto;
+}
+
+/*
+.info-2 {
+  display: flex;
+  flex-direction: row;
+}
+*/
 
 /* Mobile Media Query for Thesis section */
 
 @media only screen and (max-width: 600px) {
 
+video {
+
+  width: 100%;
+}
+
 .info-2 {
+  display: none;
+}
+
+.info-3 {
   display: none;
 }
 }
