@@ -24,6 +24,12 @@ max-width: 100%;
 margin: auto;
 
 }
+
+a:hover {
+  color: purple;
+  text-transform: uppercase;
+}
+
 /* header section */
 
 header {
@@ -147,6 +153,11 @@ li {
   text-align: center;
   line-height: 2rem;
 
+}
+
+.btn:hover {
+  color: #92c5d8;
+  
 }
 
 /*
@@ -339,8 +350,8 @@ span p {
   line-height: 2rem;
 }
 
-a:hover {
-  color: purple;
+.btn-2:hover {
+  color: #92c5d8;
   text-transform: uppercase;
 }
 
@@ -454,7 +465,7 @@ main h1 {
 
 
 .courses:hover {
-  background-color: #cc0033;
+  background-color: #92c5d8;
   /* margin: .15rem; */
 }
 
@@ -567,6 +578,14 @@ background-color: white;
   height: auto;
   width: 100%;
   margin: auto;
+}
+
+.info-2:hover {
+  background-color: #92c5d8;
+}
+
+.info-3:hover {
+  background-color: #92c5d8;
 }
 
 .two-2-a-1 {
